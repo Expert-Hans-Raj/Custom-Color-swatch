@@ -1,0 +1,59 @@
+
+
+/*custom  color swatch  css Code By Hans*/
+
+.product fieldset.js.product-form__input.custom-swatch-color.Size {
+display: none;
+}
+.product .product-form__input.product-form__input--dropdown.Color {
+display: none;
+
+.custom-swatch-Color label{
+background-size: cover;
+background-repeat: no-repeat;
+background-color: transparent;
+padding: 10px !important;
+width: 35px;
+background-position: center;
+height: 35px;
+}
+span.value_box {
+display: none;
+}
+.custom-swatch-Color label:hover span.value_box {
+display: block;
+position: absolute;
+top: -30px;
+left: 0;
+background: #25806f;
+padding: 5px;
+color: #fff;
+}
+span.value_box:before {
+content: '';
+position: absolute;
+display: block;
+width: 0px;
+left: 10px;
+right:auto;
+bottom: 0;
+border: 6px solid transparent;
+border-bottom: 0;
+border-top: 5px solid #25806f;
+transform: translate(0, calc(0px + 5px));
+}
+
+.custom-swatch-Color  input[type=radio]:checked+label:before {
+content: "";
+position: absolute;
+top: -5.1px;
+left: -5px;
+width: 43px;
+height: 43px;
+border: 2px solid #000;
+}
+
+.custom-swatch-Color  input[type=radio]:checked+label {
+position: relative;
+}
+/*custom  color swatch  css Code By Hans*/
